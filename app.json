@@ -8,7 +8,7 @@
     "scheme": "expostripespmrepro",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "bundleIdentifier": "com.glowcoreadmin.expo-stripe-spm-repro"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +31,15 @@
           "backgroundColor": "#208AEF",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "dynamic",
+            "usePrecompiledModules": true
+          }
         }
       ]
     ],
